@@ -474,7 +474,7 @@ a {
     background: #2e2100;
 }
 
-.feedback-list{
+.feedback-list {
     display: flex;
     overflow: hidden;
 }
@@ -527,10 +527,11 @@ a {
     cursor: pointer;
 
 }
-.feedback-item .dot.active{
+
+.feedback-item .dot.active {
     background: #ffb900;
     cursor: default;
-    
+
 }
 
 .feedback-item .content {
@@ -544,8 +545,84 @@ a {
     font-style: italic;
     font-size: 2.6rem;
     line-height: 1.54;
-    
+
     color: #FFFFFF;
 
 }
 
+/* Features */
+
+.features {
+    margin-top: 135px;
+    padding: 65px 0;
+}
+
+
+.features .body {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.features .body .images {
+    display: flex;
+    gap: 0 30px;
+
+}
+
+.features .images img {
+    width: 270px;
+    height: 404px;
+    object-fit: cover;
+    border-radius: 16px;
+
+}
+
+.features img.lower {
+    margin-top: 34px;
+}
+
+.features .content {
+    width: 41%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.features .content .desc {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #5F5B53;
+
+}
+
+.features .cta-btn{
+    margin-top: 32px;
+    background-color: #ffb900;
+    color: #fff;
+    width: 137px;
+    
+}
+
+.features img.image-bellow{
+    width: 470px;
+    height: 440px;
+   
+
+}
+
+.feature-2nd{
+    margin-top: 70px;
+}
+
+.feature-2nd .body{
+    flex-direction: row-reverse;
+}
+
+.feature-2nd .content{
+    width: 49%;
+}
